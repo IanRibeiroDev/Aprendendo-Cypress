@@ -1,0 +1,19 @@
+{
+  "name": "aprendendo-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run",
+    "cy:run:mobile": "npx cypress run --config viewportWidth=375, viewportHeight=667",
+    "cy:op": "npx cypress open",
+    "cy:op:mobile": "npx cypress open --config viewportWidth=375, viewportHeight=667"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1"
+  }
+}
