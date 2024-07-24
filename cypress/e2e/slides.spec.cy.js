@@ -78,10 +78,6 @@ context('httpbin', () => {
     });
 });
 
-context('GitHub', () => {
-    
-});
-
 context('CAC TAC', () => {
     
     beforeEach(() => {
